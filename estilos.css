@@ -1,4 +1,4 @@
-.card1{
+.fondo{
  background-image: url("https://supercurioso.com/wp-content/uploads/2015/02/abejas_1800x1075.jpg");
 }
 
@@ -9,6 +9,13 @@
  justify-content: center;
  justify-content: space-around;
 }
+
+.tarjetas{
+ overflow: hidden; /* oculta las esquinitas de las imagenes que se salgan */
+ border-radius: 30px; 
+}
+ 
+
 
 .contenedor2{
  width: 100%;
