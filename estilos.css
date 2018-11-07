@@ -26,6 +26,7 @@
  display: flex;
  justify-content: center;
  justify-content: space-around;
+ flex-wrap: wrap;
 }
 
 @media only screen  and (max-width: 576px){
@@ -36,6 +37,20 @@
 }
 
 @media only screen  and (max-width: 577px) and (max-width: 768px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 578px) and (max-width: 992px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 993px) and (max-width: 1200px){
     .tarjetas{
      width: 50%;
      margin-top: 10%;
