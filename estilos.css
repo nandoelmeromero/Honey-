@@ -8,11 +8,14 @@
  display: flex;
  justify-content: center;
  justify-content: space-around;
+ flex-wrap: wrap; /* Para cuando no quepa algo, se baje. */
 }
 
 .tarjetas{
+ width: 30%;
  overflow: hidden; /* oculta las esquinitas de las imagenes que se salgan */
- border-radius: 30px; 
+ border-radius: 30px;   
+ margin-top: 2%;
 }
  
 
@@ -25,3 +28,16 @@
  justify-content: space-around;
 }
 
+@media only screen  and (max-width: 576px){
+    .tarjetas{
+     width: 100%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 577px) and (max-width: 768px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
