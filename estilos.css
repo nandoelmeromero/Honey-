@@ -2,6 +2,12 @@
  background-image: url("https://supercurioso.com/wp-content/uploads/2015/02/abejas_1800x1075.jpg");
 }
 
+.btn-group{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
 .contenedor1{
  width: 100%;
  margin: 2% 0% 2% 0%;
@@ -18,8 +24,6 @@
  margin-top: 2%;
 }
  
-
-
 .contenedor2{
  width: 100%;
  margin: 2% 0% 2% 0%;
