@@ -12,7 +12,7 @@ const check = document.getElementById ('checkbox')
 
 const click = (event) => {
     event.preventDefault (); 
-    console.log (username.value, password.value, email.value);
+    console.log (username.value, email.value);
     if (name.value && RS.value && username.value && telephone.value && email.value && combo.value && text.value && check.checked){
         console.log ("formulario completo")
         alert ("Thanks for registered, we'll contact you soon")
