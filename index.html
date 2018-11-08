@@ -8,13 +8,60 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
     <title>Honey!</title>
   </head>
   <body>
-    <h3>Thanks for your interest, please tell us a bit more about your organization</h3>
+    <!-- MENÚ NAVEGACIÓN -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">HONEY!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">How it works</a>
+                    <a class="nav-item nav-link" href="#">NPOs</a>
+                    </div>
+                </div>
+                </nav>
+    </header>
+    
+    
+    <!-- ¿QUÉ ES?         -->
+   
+    <!-- <video id="videowrapper" autoplay loop muted src="https://www.youtube.com/watch?v=QEzlsjAqADA" type="video"></video> -->
+    <!-- REVISAR HOY EL AUTOPLAY, EL MUTED Y STARTING AT 42 -->
+    <section class=queEs>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe autoplay muted loop class="embed-responsive-item" src="https://www.youtube.com/embed/QEzlsjAqADA#t=42" allowfullscreen id="video"></iframe>
+        </div>
+        <div>
+            <h1>DONATE AND BEECOME </h1>
+            <h3>HONEY! is a platform that allows users to make monthly money donations to different NPO's based on their affinities</h3>
+            <h5> Choose your FAVORITE NPO, choose your AMOUNT, choose to CHANGE THE WORLD</h5>
+        </div>
+    </section>  
+    <div class="contador col 12">
+        <div class="bee col-sm-12 col-lg-6 ">
+            <img src="contador.gif" alt="contador">
+        </div>
+        <div class="bee col-sm-12 col-lg-6 ">
+            <img src="contador.gif" alt="contador">
+        </div>
+    </div>
+
+    
+
+
+    <!-- FORMULARIO REGISTRO -->
+    
     <form>
         <div class="form-group">
+            <h4>Thanks for your interest, please tell us a bit more about your organization</h4>
           <label for="fundacion">Name*</label>
           <input type="text" class="form-control" id="fundacion" placeholder="Type the name of the organization or foundation you represent" required>
           <label for="razonSocial">Business social reason*</label>
@@ -27,7 +74,7 @@
           <input type="number" class="form-control" id="telefono" placeholder="Type your phone number" maxlength="10" required>
           <label for="actaConstitutiva">Upload your constitutive act*</label>
           <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            <button type="button" class="btn btn-primary1" data-toggle="modal" data-target="#exampleModalCenter">
                 Upload file
             </button>
             
@@ -42,7 +89,7 @@
                     </button>
                     </div>
                     <div class="modal-body">
-                            Remember that the allowed formats are pdf, png, jpg, jpeg (max 5MB)
+                        Remember that the allowed formats are pdf, png, jpg, jpeg (max 5MB)
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -51,16 +98,15 @@
                     </div>
                 </div>
                 </div>
+                
             </div>
-            <small id="tipoArchivo" class="form-text text-muted">Allowed formats: pdf, png, jpg, jpeg (max 5MB)</small>
+            <small id="tipoArchivo" class="form-text1 text-muted">Allowed formats: pdf, png, jpg, jpeg (max 5MB)</small>
         </div>
 
         <div class="form-check">
             <p>Are you the legal representative?*</p>
             <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="option1" checked>
             <label class="form-check-label" for="radio1">Yes</label>
-          </div>
-          <div class="form-check">
             <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" value="option2">
             <label class="form-check-label" for="radio2">No</label>
           </div>
@@ -90,8 +136,9 @@
           <label class="form-check-label" for="checkbox">I accept privacy notice</label>
         </div>
         <button type="submit" class="btn btn-primary" id="clickButton">Submit</button>
-      </form>
-      <small id="infoHelp" class="form-text text-muted">We won't share your information with anyone else</small>
+        <small id="infoHelp" class="form-text text-muted">We won't share your information with anyone else</small>  
+    </form>
+     
 
     <!-- Optional JavaScript -->
     <script src="main.js"></script>

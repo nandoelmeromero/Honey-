@@ -1,4 +1,7 @@
-const clickButton = document.getElementById('clickButton') 
+
+
+const video = document.getElementById ('video').currentTime = 42;
+const clickButton = document.getElementById('clickButton'); 
 const name = document.getElementById('fundacion');
 const RS = document.getElementById('razonSocial');
 const username = document.getElementById('nombre');
@@ -8,8 +11,8 @@ const combo = document.getElementById ('combobox')
 const text = document.getElementById ('historia')
 const check = document.getElementById ('checkbox')
 
-// console.log(username,password); 
 
+// FORMULARIO REGISTRO 
 const click = (event) => {
     event.preventDefault (); 
     console.log (username.value, email.value);
