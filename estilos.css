@@ -6,7 +6,18 @@
  width: 100%;
  display: flex;
  justify-content: center;
+ margin-top: 1%;
 }
+
+.boton{
+ background: rgb(235, 235, 102);
+ color: black;
+}
+
+.dropdown-menu{
+ background: rgb(235, 235, 102);
+}
+
 
 .contenedor1{
  width: 100%;
@@ -24,6 +35,38 @@
  margin-top: 2%;
 }
  
+.tarjeta1{
+ background: green;
+}
+
+.tarjeta2{
+ background: red;
+}
+
+.tarjeta3{
+ background:yellow;
+}
+
+.tarjeta4{
+ background: blue;
+}
+
+.tarjeta5{
+ background:purple;
+}
+   
+.tarjeta6{
+ background:grey;
+}
+   
+.tarjeta7{
+ background:pink;
+}
+   
+.tarjeta8{
+ background:white;
+}
+
 .contenedor2{
  width: 100%;
  margin: 2% 0% 2% 0%;
@@ -47,7 +90,7 @@
     }  
 }
 
-@media only screen  and (max-width: 578px) and (max-width: 992px){
+@media only screen  and (max-width: 768px) and (max-width: 992px){
     .tarjetas{
      width: 50%;
      margin-top: 10%;

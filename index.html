@@ -25,18 +25,18 @@
         
       
         <div class="btn-group" role="group">
-          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button id="btnGroupDrop1" type="button"   class="btn btn-secondary dropdown-toggle boton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Selecciona tu colmena
           </button>
           <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-            <a class="dropdown-item" href="#">Animales</a>
-            <a class="dropdown-item" href="#">Salud</a>
-            <a class="dropdown-item" href="#">Educación</a>
-            <a class="dropdown-item" href="#">Ecología</a>
-            <a class="dropdown-item" href="#">Caridad</a>
-            <a class="dropdown-item" href="#">Psicología</a>
-            <a class="dropdown-item" href="#">opción 7</a>
-            <a class="dropdown-item" href="#">opción 8</a>
+            <a class="dropdown-item" onclick="ocultaranimales()" href="#">Animales</a>
+            <a class="dropdown-item" onclick="ocultarsalud()" href="#">Salud</a>
+            <a class="dropdown-item" onclick="ocultareducacion()" href="#">Educación</a>
+            <a class="dropdown-item" onclick="ocultarecologia()" href="#">Ecología</a>
+            <a class="dropdown-item" onclick="ocultarcaridad()" href="#">Caridad</a>
+            <a class="dropdown-item" onclick="ocultarpsicologia()" href="#">Psicología</a>
+            <a class="dropdown-item" onclick="ocultarfundacion7()" href="#">opción 7</a>
+            <a class="dropdown-item" onclick="ocultarfundacion8()" href="#">opción 8</a>
           
           </div>
         </div>
@@ -44,7 +44,7 @@
       
       <div class="contenedor1">
           
-          <div class="card tarjetas"  style="width: 18rem;">
+          <div class="card tarjetas tarjeta1" id="animales" style="width: 18rem;">
             <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Fundación</h5>
@@ -53,7 +53,7 @@
             </div>
           </div>
           
-          <div class="card tarjetas" style="width: 18rem;">
+          <div class="card tarjetas tarjeta2" id="salud" style="width: 18rem;">
             <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Fundación</h5>
@@ -62,7 +62,7 @@
             </div>
           </div>
         
-          <div class="card tarjetas" style="width: 18rem;">
+          <div class="card tarjetas tarjeta3" id="educacion" style="width: 18rem;">
             <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Fundación</h5>
@@ -71,7 +71,7 @@
             </div>
           </div>
         
-          <div class="card tarjetas" style="width: 18rem;">
+          <div class="card tarjetas tarjeta4" id="ecologia" style="width: 18rem;">
             <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Fundación</h5>
@@ -82,7 +82,7 @@
       </div>
       
       <div class="contenedor2">
-        <div class="card tarjetas" style="width: 18rem;">
+        <div class="card tarjetas tarjeta5" id="caridad" style="width: 18rem;">
           <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Fundación</h5>
@@ -91,7 +91,7 @@
           </div>
         </div>
     
-        <div class="card tarjetas" style="width: 18rem;">
+        <div class="card tarjetas tarjeta6" id="psicologia" style="width: 18rem;">
           <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Fundación</h5>
@@ -100,7 +100,7 @@
           </div>
         </div>
     
-        <div class="card tarjetas" style="width: 18rem;">
+        <div class="card tarjetas tarjeta7" id="fundacion7" style="width: 18rem;">
           <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Fundación</h5>
@@ -109,7 +109,7 @@
           </div>
         </div>
       
-        <div class="card tarjetas" style="width: 18rem;">
+        <div class="card tarjetas tarjeta8" id="fundacion8" style="width: 18rem;">
           <img class="card-img-top" src="https://www.sciencemag.org/sites/default/files/styles/inline__450w__no_aspect/public/bee_16x9_0.jpg?itok=Ko9BdUND" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Fundación</h5>
