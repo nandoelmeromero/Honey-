@@ -1,0 +1,62 @@
+.contenedor1{
+ margin-top: -1%;
+ background: rgb(226, 226, 76);
+ /* border: 5px solid red; */ 
+ font-family: "Poppins",sans-serif;
+ height: 100%;
+ display: flex;
+ 
+}
+
+.titulo{
+    background-image: url("fondomiel.jpeg");
+    background-position: center;
+}
+
+
+.descripcion{
+ /* border: 5px solid yellow; */
+ margin-top: -3%;
+ padding-left: 7%;
+ height: 100%;
+ display: flex;
+ justify-content: flex-end;
+ 
+}
+
+.imagen{
+ margin: -2% 0% 0% 9% ;
+ /* border: 1px solid red; */
+}
+
+.logo{
+ /* border: 6px solid red; */
+ height: 60%;
+ width: 60%;
+ margin: 10% 0% 0% 18%;
+ padding-left: 5%;
+}
+
+.contenedor2{
+ margin-top: -1%;
+ /* border: 8px solid blue; */
+ display: flex;
+ justify-content: flex-end;
+ justify-content: space-around;
+}
+
+.carrusel1{
+ /* border: 1px solid red; */
+ width: 50%;
+ height: 50%;
+}
+
+.descripcion2{
+ /* border: 1px solid green; */
+ background-image: url("fondomiel.jpeg");
+ background-position: center;
+ margin: 0% 0%;
+ padding: 0% 0%;
+
+}
+
