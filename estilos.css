@@ -1,5 +1,5 @@
 .fondo{
- background-image: url("https://supercurioso.com/wp-content/uploads/2015/02/abejas_1800x1075.jpg");
+ background-image: url("fondomiel.jpeg");
 }
 
 .btn-group{
@@ -16,6 +16,38 @@
 
 .dropdown-menu{
  background: rgb(235, 235, 102);
+}
+
+.opcion1{
+ background: green;
+}
+
+.opcion2{
+ background: red;
+}
+
+.opcion3{
+ background:yellow;
+}
+
+.opcion4{
+ background: blue;
+}
+
+.opcion5{
+ background:purple;
+}
+
+.opcion6{
+ background: grey;
+}
+
+.opcion7{
+ background: pink;
+}
+
+.opcion8{
+ background: white;
 }
 
 
@@ -37,34 +69,42 @@
  
 .tarjeta1{
  background: green;
+ display: none;
 }
 
 .tarjeta2{
  background: red;
+ display: none;
 }
 
 .tarjeta3{
  background:yellow;
+ display: none;
 }
 
 .tarjeta4{
  background: blue;
+ display: none;
 }
 
 .tarjeta5{
  background:purple;
+ display: none;
 }
    
 .tarjeta6{
  background:grey;
+ display: none;
 }
    
 .tarjeta7{
  background:pink;
+ display: none;
 }
    
 .tarjeta8{
  background:white;
+ display: none;
 }
 
 .contenedor2{
