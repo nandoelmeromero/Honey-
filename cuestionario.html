@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+    <title>Honey!</title>
+  </head>
+  <body>
+    <!-- MENÚ NAVEGACIÓN -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">HONEY!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">How it works</a>
+                <a class="nav-item nav-link" href="#">NPOs</a>
+                </div>
+            </div>
+            </nav>
+    </header>
+
+    <!-- FORMULARIO REGISTRO -->
+    
+    <form>
+        <div class="form-group">
+            <h4>Thanks for your interest, please tell us a bit more about your organization</h4>
+          <label for="fundacion">Name*</label>
+          <input type="text" class="form-control" id="fundacion" placeholder="Type the name of the organization or foundation you represent" required>
+          <label for="razonSocial">Business social reason*</label>
+          <input type="text" class="form-control" id="razonSocial" placeholder="Type your business social reason" required>
+          <label for="nombre">Contact name*</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Type your full name" required>
+          <label for="email">Email*</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Type your email" required>
+          <label for="telefono">Phone number*</label>
+          <input type="number" class="form-control" id="telefono" placeholder="Type your phone number" maxlength="10" required>
+          <label for="actaConstitutiva">Upload your constitutive act*</label>
+          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary1" data-toggle="modal" data-target="#exampleModalCenter">
+                Upload file
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Upload your constitutive act</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        Remember that the allowed formats are pdf, png, jpg, jpeg (max 5MB)
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Select file</button>
+                        
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            <small id="tipoArchivo" class="form-text1 text-muted">Allowed formats: pdf, png, jpg, jpeg (max 5MB)</small>
+        </div>
+
+        <div class="form-check">
+            <p>Are you the legal representative?*</p>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="option1" checked>
+            <label class="form-check-label" for="radio1">Yes</label>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" value="option2">
+            <label class="form-check-label" for="radio2">No</label>
+          </div>
+         
+        <div class="form-group">
+            <label for="combobox">Choose your category*</label>
+            <select class="form-control" id="combobox">
+                <option>Select one</option>
+                <option>Animals</option>
+                <option>Charity</option>
+                <option>Ecology</option>
+                <option>Education</option>
+                <option>Health</option>
+                <option>Psychology</option>
+                <option>Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="historia">Tell us a bit more of your organization*</label>
+            <textarea class="form-control" id="historia" rows="3" maxlength="500"></textarea>
+            <small>Max 500 characters</small>
+        </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="checkbox">
+          <label class="form-check-label" for="checkbox">I accept privacy notice</label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="clickButton">Submit</button>
+        <small id="infoHelp" class="form-text text-muted">We won't share your information with anyone else</small>  
+    </form>
+     
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
