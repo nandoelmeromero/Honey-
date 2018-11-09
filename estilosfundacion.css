@@ -1,7 +1,8 @@
+/* estilos de la demostracion de una fundacion nando */
 .contenedor1{
  margin-top: -1%;
  background: rgb(226, 226, 76);
- /* border: 5px solid red; */ 
+ border-radius: 5%; 
  font-family: "Poppins",sans-serif;
  height: 100%;
  display: flex;
@@ -9,19 +10,21 @@
 }
 
 .titulo{
-    background-image: url("fondomiel.jpeg");
-    background-position: center;
+ font-family: 'Poppins', sans-serif;
+ background-image: url("fondomiel.jpeg");
+ background-position: center;
+ text-align: center;
 }
-
 
 .descripcion{
  /* border: 5px solid yellow; */
+ font-family: 'Poppins', sans-serif;
+ font-size: 23px;
  margin-top: -3%;
  padding-left: 7%;
  height: 100%;
  display: flex;
  justify-content: flex-end;
- 
 }
 
 .imagen{
@@ -52,11 +55,30 @@
 }
 
 .descripcion2{
- /* border: 1px solid green; */
+ /* border: 1px solid green; */ 
+ border-radius: 3%;
  background-image: url("fondomiel.jpeg");
  background-position: center;
  margin: 0% 0%;
  padding: 0% 0%;
-
 }
 
+.ayuda{
+ /* border: 1px solid pink; */
+ margin: 10% 7% 10% 10%;    
+ font-size: 20px;
+ padding-left: 3% 0% 2% 10% ;
+}
+
+.findepagina{
+ margin-top: 1%;
+ background: black;
+ display: flex;
+ justify-content: center;
+}
+
+.honey{
+ font-family: 'Poppins', sans-serif;
+ margin-top: 1%;
+ color: white;
+}

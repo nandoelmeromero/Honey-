@@ -1,5 +1,7 @@
+/* Estilos del directorio nando */
 .fondo{
  background-image: url("fondomiel.jpeg");
+ background-position: center;
 }
 
 .btn-group{
