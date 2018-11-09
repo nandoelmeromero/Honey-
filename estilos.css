@@ -2,6 +2,21 @@
 *{
     font-family: 'Poppins', sans-serif;
 }  
+
+header {
+    background: #fedfaa;
+}
+
+.navbar-brand,.nav-item {
+    color: black;
+}
+.navbar-brand:hover,.nav-item:hover {
+    color: grey;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
 .queEs {
     display: flex;
     text-align: center;
@@ -25,7 +40,12 @@ h5 {
 .contador{
     display: flex;
 }
+.abejitas {
+    width: 60px;
+    height: 60px;
+    flex-direction: row;
 
+}
 .contador {
     width: 100%;
 }
@@ -44,6 +64,7 @@ h5 {
 
 h4{
     text-align: center;
+    margin-left: 10px;
 }
 
 form {
@@ -85,8 +106,8 @@ form {
 }
 
 footer{
-    background: #212529;
+    background: #fedfaa;;
     text-align: right;
-    color: white;
+    color: black;
     padding: 10px;
 }
