@@ -5,6 +5,7 @@
 
 header {
     background: #fedfaa;
+ padding: 0% 0% 0% 1%;
 }
 
 .navbar-brand,.nav-item {
@@ -114,10 +115,214 @@ footer{
 /* Termina estilos Heli */
 
 
+
+/* Inicia estilos pepe */
+.carrusel{
+ margin-top: 2%;
+ display:flex;
+ /* border: 2px black solid; */
+}
+
+img {
+    /* border-radius: 40px; */
+}
+
+.caja{
+    background:#e1f2ea;
+    /* border: 5px solid red; */
+}
+
+.caja1{
+    background:	#fffad2;
+    /* border: 2px solid blue; */
+}
+
+.caja2{
+    background:#ffd5cc;
+    /* border: 2px solid green; */
+}
+
+.caja3{
+    background:	#e1f2ea;
+    /* border: 2px solid yellow; */
+}
+
+.aroundleft{
+    /* border: 10px solid grey; */
+
+}
+
+.aroundright{
+    /* border: 10px solid grey; */
+}
+
+.imagen {
+    display:flex;
+    /* padding-left: 200px; */
+    width:300px;
+    height:600px;
+    /* border: 5px solid orangered; */
+}
+
+.imagen {
+    display:flex;
+    /* padding-left: 200px; */
+    width:300px;
+    height:600px;
+}
+
+.imagen {
+    display:flex;
+    /* padding-left: 200px; */
+    width:300px;
+    height:600px;
+}
+.imagen {
+    display:flex;
+    /* padding-left: 200px; */
+    width:300px;
+    height:600px;
+}
+.tex {
+    /* border: 1px solid red; */
+    display:flex;
+}
+.texto {
+    /* border: 1px solid red; */
+    display:flex;
+    justify-content:center;
+    margin-left: 190px;
+    width:360px;
+    height: 350px;
+    margin-top: -350px;
+    /* border: solid 5px rebeccapurple; */
+}
+.textos {
+    /* border: 3px solid red; */
+    display:flex;
+    justify-content:flex-end;
+    color:#767671;
+    font-size: 35px;
+    font-family:Helvetica;
+    margin-top:-25px;
+}
+
+.textos1 {
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content:flex-end;
+    color:#767671;
+    font-size: 35px;
+    font-family:Helvetica;
+    margin:-40px 0% 0% 5%;
+}
+
+.texto1 {
+    /* border: 1px solid red; */
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    margin-left: 200px;
+    width:360px;
+    height: 250px;
+    padding-top:-100px;
+    /* border: 5px solid brown; */
+}
+
+
+.texto2 {
+    display:flex;
+    justify-content:flex-end;
+    margin-left: 200px;
+    width:400px;
+    height: 200px;
+    margin-top:-440px;
+}
+
+.boton{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* background:red; */
+    padding:10px 0px 5px 0px;
+    width: 100%; 
+    margin: 0% -50px 0% 50%
+}
+
+.botones {
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    padding: 0% -10% 0% -10%;
+}
+
+.fondo2{
+    margin-top: 1%;
+    display: flex;
+    background: #fedfaa;
+    justify-content:;
+    flex-direction: column;
+    background-image:;
+    width: 500px;
+    height: 600px;
+    /* border:solid 2px black; */
+}
+
+.ina {
+    display: flex;
+    justify-content: center;
+    width:670px;
+    height:250px;
+    /* border:solid black 2px; */
+}
+.reina{
+    display:flex;
+    width:150px;
+    height:230px;
+    /* border: solid black 2px; */
+}
+.abejareina {
+    /* border: 1px solid red; */
+    display:flex;
+    margin-top: 10%;
+    background: #fedfaa; 
+}
+.textoreina{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 350px;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+}
+
+li {
+    color:#767671;
+    font-size: 30px;
+    font-family:Helvetica;
+}
+/* Termina estilos pepe */
+
+
 /* inicia Estilos del directorio (nando) */
 .fondo{
- background-image: url("fondomiel.jpeg");
- background-position: center;
+    background: #ffd5cc;
+    /* background-image: url("fondomiel.jpeg"); */
+ /* background-position: center; */
+ /* height: 500px; */
+ width:100%;
+/*  background-repeat: repeat;
+ background-size: cover;  */
+ /* border: 1px solid red; */
+}
+
+.encabezado{
+ /* border: 1px solid red; */
+ padding: 0% 0% 0% 8%; 
+ font-family: inherit;
+ font-size: 1.5rem;
 }
 
 .btn-group{
@@ -127,9 +332,10 @@ footer{
  margin-top: 1%;
 }
 
-.boton{
+.botoncolmena{
  background: rgb(235, 235, 102);
  color: black;
+ 
 }
 
 .dropdown-menu{
@@ -179,50 +385,77 @@ footer{
 }
 
 .tarjetas{
+ /* border: 1px solid blue; */
  width: 30%;
  overflow: hidden; /* oculta las esquinitas de las imagenes que se salgan */
  border-radius: 30px;   
  margin-top: 2%;
 }
  
+.card-body{
+ /* border: 1px solid red; */
+ 
+  
+}
+
+.card-img-top{
+ /* border: 2px pink solid; */
+ height: 250px;
+ }
+
+.card-title{
+ /* border: 1px solid blue; */
+ margin: -15px -30px -12px -15px;
+}
+
+.card-text{
+ /* border: 1px solid black; */
+ margin: 25px 3px -10px -16px;
+}
+
+.btn-primary{
+ /* border: 1px solid yellow; */
+ margin: 50px 0px 0px 40px;
+}
+
 .tarjeta1{
- background: green;
- display: none;
+ /* background: green; */
+ /* display: none; */
 }
 
 .tarjeta2{
- background: red;
- display: none;
+ /* background: red; */
+ /* display: none; */
 }
 
 .tarjeta3{
- background:yellow;
- display: none;
+ /* background:yellow; */
+ /* display: none; */
 }
 
 .tarjeta4{
- background: blue;
- display: none;
+ /* background: blue; */
+ /* display: none; */
 }
 
 .tarjeta5{
- background:purple;
- display: none;
+ /* background:purple; */
+ /* display: none; */
 }
    
 .tarjeta6{
- background:grey;
- display: none;
+ /* background:grey; */
+ /* display: none; */
 }
    
 .tarjeta7{
- background:pink;
- display: none;
+ /* background:pink; */
+ /* display: none; */
 }
    
 .tarjeta8{
- background:white;
- display: none;
+ /* background:white; */
+ /* display: none; */
 }
 
 .contenedor2{
