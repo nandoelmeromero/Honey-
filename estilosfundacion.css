@@ -1,0 +1,85 @@
+/* Inicia estilos de la demostracion de una fundacion (nando) */
+.contenedor1{
+ margin-top: -1%;
+ background: rgb(226, 226, 76);
+ border-radius: 5%; 
+ font-family: "Poppins",sans-serif;
+ height: 100%;
+ display: flex;
+ 
+}
+
+.titulo{
+ font-family: 'Poppins', sans-serif;
+ background-image: url("fondomiel.jpeg");
+ background-position: center;
+ text-align: center;
+}
+
+.descripcion{
+ /* border: 5px solid yellow; */
+ font-family: 'Poppins', sans-serif;
+ font-size: 23px;
+ margin-top: -3%;
+ padding-left: 7%;
+ height: 100%;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.imagen{
+ margin: -2% 0% 0% 9% ;
+ /* border: 1px solid red; */
+}
+
+.logo{
+ /* border: 6px solid red; */
+ height: 60%;
+ width: 60%;
+ margin: 10% 0% 0% 18%;
+ padding-left: 5%;
+}
+
+.contenedor2{
+ margin-top: -1%;
+ /* border: 8px solid blue; */
+ display: flex;
+ justify-content: flex-end;
+ justify-content: space-around;
+}
+
+.carrusel1{
+ /* border: 1px solid red; */
+ width: 50%;
+ height: 50%;
+}
+
+.descripcion2{
+ /* border: 1px solid green; */ 
+ border-radius: 3%;
+ background-image: url("fondomiel.jpeg");
+ background-position: center;
+ margin: 0% 0%;
+ padding: 0% 0%;
+}
+
+.ayuda{
+ /* border: 1px solid pink; */
+ margin: 10% 7% 10% 10%;    
+ font-size: 20px;
+ padding-left: 3% 0% 2% 10% ;
+}
+
+.findepagina{
+ margin-top: 1%;
+ background: black;
+ display: flex;
+ justify-content: center;
+}
+
+.honey{
+ font-family: 'Poppins', sans-serif;
+ margin-top: 1%;
+ color: white;
+}
+/* Finaliza estilos de la demostracion de una fundacion (nando) */

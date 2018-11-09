@@ -1,0 +1,149 @@
+/* inicia Estilos del directorio (nando) */
+.fondo{
+ background-image: url("fondomiel.jpeg");
+ background-position: center;
+}
+
+.btn-group{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 1%;
+}
+
+.boton{
+ background: rgb(235, 235, 102);
+ color: black;
+}
+
+.dropdown-menu{
+ background: rgb(235, 235, 102);
+}
+
+.opcion1{
+ background: green;
+}
+
+.opcion2{
+ background: red;
+}
+
+.opcion3{
+ background:yellow;
+}
+
+.opcion4{
+ background: blue;
+}
+
+.opcion5{
+ background:purple;
+}
+
+.opcion6{
+ background: grey;
+}
+
+.opcion7{
+ background: pink;
+}
+
+.opcion8{
+ background: white;
+}
+
+
+.contenedor1{
+ width: 100%;
+ margin: 2% 0% 2% 0%;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ flex-wrap: wrap; /* Para cuando no quepa algo, se baje. */
+}
+
+.tarjetas{
+ width: 30%;
+ overflow: hidden; /* oculta las esquinitas de las imagenes que se salgan */
+ border-radius: 30px;   
+ margin-top: 2%;
+}
+ 
+.tarjeta1{
+ background: green;
+ display: none;
+}
+
+.tarjeta2{
+ background: red;
+ display: none;
+}
+
+.tarjeta3{
+ background:yellow;
+ display: none;
+}
+
+.tarjeta4{
+ background: blue;
+ display: none;
+}
+
+.tarjeta5{
+ background:purple;
+ display: none;
+}
+   
+.tarjeta6{
+ background:grey;
+ display: none;
+}
+   
+.tarjeta7{
+ background:pink;
+ display: none;
+}
+   
+.tarjeta8{
+ background:white;
+ display: none;
+}
+
+.contenedor2{
+ width: 100%;
+ margin: 2% 0% 2% 0%;
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+@media only screen  and (max-width: 576px){
+    .tarjetas{
+     width: 100%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 577px) and (max-width: 768px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 768px) and (max-width: 992px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
+
+@media only screen  and (max-width: 993px) and (max-width: 1200px){
+    .tarjetas{
+     width: 50%;
+     margin-top: 10%;
+    }  
+}
+
+/* Finaliza Estilos del directorio (nando) */
